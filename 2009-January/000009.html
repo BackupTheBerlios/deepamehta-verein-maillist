@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [deepamehta-verein] Neuer Vereinsnamen + neue Idee
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/deepamehta-verein/2009-January/index.html" >
+   <LINK REL="made" HREF="mailto:deepamehta-verein%40lists.berlios.de?Subject=Re%3A%20%5Bdeepamehta-verein%5D%20Neuer%20Vereinsnamen%20%2B%20neue%20Idee&In-Reply-To=%3C496B9950.7040007%40deepamehta.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000011.html">
+   <LINK REL="Next"  HREF="000012.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[deepamehta-verein] Neuer Vereinsnamen + neue Idee</H1>
+    <B>Malte Rei&#223;ig</B> 
+    <A HREF="mailto:deepamehta-verein%40lists.berlios.de?Subject=Re%3A%20%5Bdeepamehta-verein%5D%20Neuer%20Vereinsnamen%20%2B%20neue%20Idee&In-Reply-To=%3C496B9950.7040007%40deepamehta.de%3E"
+       TITLE="[deepamehta-verein] Neuer Vereinsnamen + neue Idee">mre at deepamehta.de
+       </A><BR>
+    <I>Mon Jan 12 20:26:08 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000011.html">[deepamehta-verein] Neuer Vereinsnamen + neue Idee
+</A></li>
+        <LI>Next message: <A HREF="000012.html">[deepamehta-verein] Vorschl?ge zum Namen
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hi Urs,
+
+wenn ich dass jetzt richtig verstanden habe, m&#246;chtest du irgendwo einen
+pers. DeepaMehta Server haben, f&#252;r dich oder deine Arbeitsgruppe, indem
+du/ihr dann Maps bauen k&#246;nnte um diese dann von &#252;berall aus abrufen zu
+k&#246;nnen. Das w&#228;re ja auch mit einem Vereinsserver der ein paar instanzen
+von mitgliedern hostet ja auch prinzipiell schon machbar. Doch den
+Application Service &#252;ber die Ferne anzusprechen ist momentan noch nicht
+m&#246;glich, weder &#252;ber Java noch &#252;ber PHP. Den Storage Layer wo anders zu
+Hosten d&#252;rfte kein Problem sein. DeepaMehta als Dienst wie du in
+beschreibst schwirrt uns allen gerade im Kopfe rum. Ich studiere diese
+Woche also REST und zum navigieren in TopicMaps will ich noch in diesem
+Monat eine L&#246;sung haben und einen Test Client haben.
+
+SemKingPeng ben&#246;tigt momentan nur zwei Xml Files und ein Repository um
+von deinem Provider gehostet zu werden. Das &quot;authoring&quot; daf&#252;r k&#246;nntest
+du in deiner lokalen DM Instanz machen. Schwebt dir da schon etwas vor?
+
+Hoope das konkretisiert das jetzt etwas,
+
+Sch&#246;nen Gru&#223;,
+
+Malte
+
+Urs Lerch wrote on 07.01.2009 08:51:
+&gt;<i> Hallo Malte,
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>&gt;&gt;<i> Was meinst du mit einem Low-Level Einstieg? Willst du f&#252;r jmdn. wie dich
+</I>&gt;&gt;<i> eine leichtere Entwicklung von Web Anwendungen erm&#246;glichen?
+</I>&gt;&gt;<i>
+</I>&gt;&gt;<i> Ich denke das der Low-Level Einstieg &#252;ber einen Vereinsserver, wie von
+</I>&gt;&gt;<i> Martin schon angepackt und solide dokumentiert, der richtige Platz f&#252;r
+</I>&gt;&gt;<i> neue Entwicklungen w&#228;re. Jedoch vermute ich jetzt, das dass was du
+</I>&gt;&gt;<i> meinst bzw. gebrauchen k&#246;nntest, ist ein Server der DeepaMehta als
+</I>&gt;&gt;<i> Dienst anbietet, unabh&#228;ngig von der jeweiligen Sprache weiterer
+</I>&gt;&gt;<i> Anwendungen. Liege ich damit richtig?
+</I>&gt;&gt;<i>     
+</I>&gt;<i>
+</I>&gt;<i> Mein &quot;Problem&quot; ist, dass ich den Serverteil bei meinem Provider nicht
+</I>&gt;<i> installieren kann, da er kein Java unterst&#252;tzt. Eine kurze Recherche hat
+</I>&gt;<i> ergeben, dass Provider mit Java-Unterst&#252;tzung relativ teuer sind. Die
+</I>&gt;<i> Nutzung, die mir vorschwebt: Das Flash von SemKingPeng nutzen, die Daten
+</I>&gt;<i> bei meinem Provider in MySQL verwalten, aber das Servlet als Dienst auf
+</I>&gt;<i> einem externen Host nutzen. Da ich es nicht sehr liebe, wenn direkt aus
+</I>&gt;<i> dem Browser heraus ein anderer Server aufgerufen wird (unterdr&#252;cke ich
+</I>&gt;<i> z.B. mittels NoScript, was in einigen Shops schon zu Problemen gef&#252;hrt
+</I>&gt;<i> hat), f&#228;nde ich es gut, wenn der Aufruf des Diensts vom Server aus
+</I>&gt;<i> durchgef&#252;hrt w&#252;rde, also z.B. mittels PHP-Wrapper.
+</I>&gt;<i>
+</I>&gt;<i> Mit Low-Lewel meine ich, dass ich mich nicht um die Installation des
+</I>&gt;<i> Servers k&#252;mmern muss. Und zwar weniger aus fehlender Kompetenz als aus
+</I>&gt;<i> fehlender Infrastruktur.
+</I>&gt;<i>
+</I>&gt;<i> Hoffe, das hat zur Kl&#228;rung beigetragen und nicht noch weiter verwirrt ;)
+</I>&gt;<i>
+</I>&gt;<i> Gruss,
+</I>&gt;<i> Urs
+</I>&gt;<i>
+</I>&gt;<i> Gruss,
+</I>&gt;<i> Urs
+</I>&gt;<i>
+</I>&gt;<i>
+</I>&gt;<i>   
+</I>
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000011.html">[deepamehta-verein] Neuer Vereinsnamen + neue Idee
+</A></li>
+	<LI>Next message: <A HREF="000012.html">[deepamehta-verein] Vorschl?ge zum Namen
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#9">[ date ]</a>
+              <a href="thread.html#9">[ thread ]</a>
+              <a href="subject.html#9">[ subject ]</a>
+              <a href="author.html#9">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/deepamehta-verein">More information about the deepamehta-verein
+mailing list</a><br>
+</body></html>
